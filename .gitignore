@@ -1,0 +1,28 @@
+# Node.js modules
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables file
+.env
+
+# Dependency directories
+bower_components/
+
+# Build output
+dist/
+
+# IDE & editor files
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Others
+coverage/
+*.tgz
