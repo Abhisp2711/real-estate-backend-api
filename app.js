@@ -13,7 +13,7 @@ dotenv.config();
 connectDB();
 
 //Enables CORS 
-const allowedOrigins = ['http://localhost:3000', 'http://192.168.86.31:3000'];
+const allowedOrigins = ['http://localhost:3000', 'http://192.168.86.31:30000','https://real-estate-parsunet.netlify.app',];
 
 app.use(cors({
   origin: function (origin, callback) {
